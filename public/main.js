@@ -2,9 +2,7 @@ const select = (selector) => document.querySelector(selector);
 
 const form = select('.form');
 const message = select('.message');
-form.addEventListener('click', (e) => {
-    console.log(e);
-})
+
 
 const displayMessage = (text, color) => {
     message.style.visibility = 'visible';
@@ -42,7 +40,7 @@ form.addEventListener('submit', async (e) => {
     // Validate our form
     const valid = validateForm();
 
-    if (valid) {
+    if (true) {
         // Submit this form
         const formData = new FormData(form);
         await postData(formData);

@@ -1,14 +1,9 @@
 [
   {
-    "title": "some titile",
-    "content": "some content",
-    "category": "tech",
-    "id": "1645531883695"
-  },
-  {
-    "title": "some titile",
-    "content": "some content",
-    "category": "political",
-    "id": "1645531924894"
+    "title": "dvef",
+    "content": "eff32r",
+    "category": "breaking-news",
+    "id": "1645621812771",
+    "thumbnail": "http://localhost:3000/1645621812771-TDT-icon.png"
   }
 ]

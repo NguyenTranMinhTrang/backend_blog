@@ -6,6 +6,8 @@ const newsRouter = require('./router/news');
 
 
 app.use(express.static('public'));
+app.use(express.static('data/uploads'));
+
 app.use('/api', newsRouter);
 
 app.listen(port, () => {
